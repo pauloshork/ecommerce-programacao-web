@@ -8,23 +8,22 @@ import java.util.Map;
 import org.apache.wicket.markup.head.CssContentHeaderItem;
 import org.apache.wicket.markup.head.IHeaderResponse;
 import org.apache.wicket.markup.head.JavaScriptReferenceHeaderItem;
-<<<<<<< HEAD
+
 import org.apache.wicket.markup.html.IPackageResourceGuard;
 import org.apache.wicket.markup.html.PackageResourceGuard;
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.html.form.Form;
-=======
-<<<<<<< HEAD
+
 import org.apache.wicket.markup.html.IPackageResourceGuard;
 import org.apache.wicket.markup.html.PackageResourceGuard;
->>>>>>> 458a0101169dfe4500c4995126eab3b2b0fdcb37
+
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.html.form.Form;
-=======
+
 import org.apache.wicket.markup.html.WebPage;
->>>>>>> f6380af1e0439c9e9294eac24dd339a3f4c01124
+
 import org.apache.wicket.markup.html.image.Image;
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 import org.apache.wicket.request.resource.CssResourceReference;
@@ -49,20 +48,13 @@ public class BasePage extends WebPage {
 	 * Mapa de arquivos de imagem que serão usados pela página.
 	 */
 	private Map<String, String> imgFiles;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 458a0101169dfe4500c4995126eab3b2b0fdcb37
+
 	
 	/**
 	 * Controlador de permissões dos arquivos.
 	 */
 	private static IPackageResourceGuard resourceGuard = new PackageResourceGuard();
-<<<<<<< HEAD
-=======
-=======
->>>>>>> f6380af1e0439c9e9294eac24dd339a3f4c01124
->>>>>>> 458a0101169dfe4500c4995126eab3b2b0fdcb37
+
 
 	/**
 	 * Inicia a página base.
@@ -76,7 +68,6 @@ public class BasePage extends WebPage {
 		cssFiles = new ArrayList<String>();
 		jsFiles = new ArrayList<String>();
 		imgFiles = new HashMap<String, String>();
-<<<<<<< HEAD
 		
 		try {
 			// Checa quais arquivos devem ser carregados com a página.
@@ -114,22 +105,6 @@ public class BasePage extends WebPage {
 	}
 	
 	/**
-=======
-		
-		try {
-			// Checa quais arquivos devem ser carregados com a página.
-			requestExternalFiles();
-			// Cria o link das imagens com o HTML
-			prepareImages();
-			// Prepara a página para a renderização
-			initialize();
-		} catch (Exception e) {
-			
-		}
-    }
-	
-	/**
-<<<<<<< HEAD
 	 * Inicializa a página.
 	 * Aqui você deve instanciar todos os componentes do wicket que serão usados
 	 * na página e mapeá-los a ações. Assim, sua página ficará responsiva a
