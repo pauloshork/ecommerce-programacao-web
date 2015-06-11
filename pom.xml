@@ -122,6 +122,9 @@
 				<directory>src/main/resources</directory>
 			</resource>
 			<resource>
+				<directory>src/main/webapp/pages</directory>
+			</resource>
+			<resource>
 				<filtering>false</filtering>
 				<directory>src/main/java</directory>
 				<includes>

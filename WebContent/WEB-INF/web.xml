@@ -23,7 +23,7 @@
 		<filter-class>org.apache.wicket.protocol.http.WicketFilter</filter-class>
 		<init-param>
 			<param-name>applicationClassName</param-name>
-			<param-value>main.java.br.ufla.WicketApplication</param-value>
+			<param-value>br.ufla.WicketApplication</param-value>
 		</init-param>
 	</filter>
 

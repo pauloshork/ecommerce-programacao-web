@@ -1,0 +1,7 @@
+# Ignora todos os arquivos do projeto do eclipse
+.classpath
+.project
+.settings/
+
+# Ignora todos os arquivos temporarios
+*~

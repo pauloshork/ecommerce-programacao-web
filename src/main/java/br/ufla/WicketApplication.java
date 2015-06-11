@@ -1,10 +1,10 @@
-package main.java.br.ufla;
-
-import main.java.br.ufla.ecommerce.views.HomePage;
+package br.ufla;
 
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.spring.injection.annot.SpringComponentInjector;
+
+import br.ufla.ecommerce.views.HomePage;
 
 /**
  * Application object for your web application.
@@ -30,9 +30,7 @@ public class WicketApplication extends WebApplication
 	public void init()
 	{
 		super.init();
-
+		
 		getComponentInstantiationListeners().add(new SpringComponentInjector(this));
-
-		// add your configuration here
 	}
 }

@@ -1,4 +1,4 @@
-package main.java.br.ufla.ecommerce.models;
+package br.ufla.ecommerce.models;
 
 import java.io.Serializable;
 import java.math.BigInteger;
