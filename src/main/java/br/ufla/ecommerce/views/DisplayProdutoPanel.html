@@ -6,9 +6,18 @@
 </head>
 <body>
 	<wicket:panel>
-		<span>Nome</span> <div wicket:id="nome-prod">Nome do produto</div>
-		<span>Preço</span> <div wicket:id="preco-prod">Preço do protudo</div>
-		<span>Descrição</span> <div wicket:id="desc-prod">Descrição do produto</div>
+		<div class="col-xs-4">
+			<div class="panel panel-default">
+				<div class="panel-heading" wicket:id="nome-prod">Nome do
+					produto</div>
+				<div class="panel-body">
+					<span>Preço</span>
+					<div wicket:id="preco-prod">Preço do protudo</div>
+					<span>Descrição</span>
+					<div wicket:id="desc-prod">Descrição do produto</div>
+				</div>
+			</div>
+		</div>
 	</wicket:panel>
 </body>
 </html>
