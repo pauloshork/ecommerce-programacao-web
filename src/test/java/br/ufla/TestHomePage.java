@@ -1,7 +1,7 @@
-package test.java.br.ufla;
+package br.ufla;
 
-import main.java.br.ufla.WicketApplication;
-import main.java.br.ufla.ecommerce.views.HomePage;
+import br.ufla.WicketApplication;
+import br.ufla.ecommerce.views.HomePage;
 
 import org.apache.wicket.util.tester.WicketTester;
 import org.junit.Before;

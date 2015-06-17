@@ -1,4 +1,4 @@
-package test.java.br.ufla;
+package br.ufla;
 
 import org.apache.wicket.util.time.Duration;
 import org.eclipse.jetty.server.Server;

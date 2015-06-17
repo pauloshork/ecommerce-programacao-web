@@ -5,3 +5,5 @@
 
 # Ignora todos os arquivos temporarios
 *~
+/target/
+/build/

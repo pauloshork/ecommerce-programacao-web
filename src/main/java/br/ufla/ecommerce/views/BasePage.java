@@ -105,29 +105,6 @@ public class BasePage extends WebPage {
 	}
 	
 	/**
-	 * Inicializa a página.
-	 * Aqui você deve instanciar todos os componentes do wicket que serão usados
-	 * na página e mapeá-los a ações. Assim, sua página ficará responsiva a
-	 * eventos.
-	 *
-	 */
-	public void initialize() {
-		Label label = new Label("teste", "teste");
-		// Controla o formulário de busca de produtos
-		Form form = new Form("search-form") {
-			
-			// O que acontecerá quando o usuário enviar o formulário.
-			@Override
-			protected void onSubmit() {
-				
-			}
-		};
-		
-		add(form);
-		add(label);
-	}
-	
-	/**
 	 * Função que deverá ser implementada pela página filha, caso ela necessite
 	 * de algum arquivo externo que não foi incluido na página base.
 	 * 
